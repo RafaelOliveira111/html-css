@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Guanabara</title>
+    <style>
+        
+        body{
+            background-color: #0112299f;
+            color: rgb(0, 0, 0);
+        }
+
+        main {
+            border-radius: 15px;
+            width: 450px;
+            background-color: rgba(164, 91, 233, 0.658);
+            margin: auto;
+            box-shadow: 5px 5px 15px #0112299f;
+        }
+
+        .plano {
+           
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            
+            
+        }
+        .botton {
+            background-color: rgb(129, 169, 255);
+            border-radius: 10px 10px 10px 10px;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-family: 'courier new';
+            align-items: center;
+            
+        }
+        .cancel {
+            border: none;
+            text-decoration: none;
+
+        }
+
+        img{
+            width: 450px;
+            height: 200px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+        }
+
+        .musica{
+            width: 60px;
+            border-radius: 60px;
+            height: 60px;
+        }
+        .fodase{
+            background-color: #0112299f;
+            display: flex;
+            justify-content: space-between;
+            height: 90px;
+            align-items: center;
+        }
+        .pai{
+            display: flex;
+            text-align: center;
+        }
+        .change{
+            text-decoration: none;
+            display: flex;
+            text-align: center;
+            
+        }
+
+        .titulo{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .now {
+            text-align: center;
+            padding: 15px;
+            display: flex;
+        }
+    </style>
+    
+</head>
+<body>
+    <main>
+        <img src="forgamers.jpg" alt="">
+        <h1 class="titulo">Order Summary</h1>
+        <p class="now">You can now listen to milions of songs, audiobooks, and podcasts on any device anywhere you like</p>
+        <div class="fodase">
+            <div class="pai">
+                <img class="musica" src="musiquita.png" alt="musiquita">
+                <div>
+                    <p class="plano">Annual Plan</p>
+                    <span style="color: white">54,99</span>
+                </div>
+            </div>
+            <p><a class="change" href="#">Change</a></p>
+        </div>
+
+        <p><button class="botton">Proceed to Payment</button></p>
+        <p class="cancel"><a href="#">Cancel Order</a></p>
+    </main>
+    
+</body>
+</html>

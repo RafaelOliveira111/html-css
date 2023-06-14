@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Frogie';
+            src: url('fontes/Frogie-Regular.ttf') format('opentype'), url('fontes/Frogie-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded - opentype
+            - truetype-att
+            - svg
+            */
+        }
+        body{
+            font-family: 'Frogie';
+        }
+
+        h1 {
+            font-family: 'Frogie';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit officia possimus corporis nostrum dolores eum ipsam tenetur dignissimos, perferendis voluptates sapiente! Sunt vitae facilis excepturi doloribus doloremque, alias et.</p>
+    
+</body>
+</html>

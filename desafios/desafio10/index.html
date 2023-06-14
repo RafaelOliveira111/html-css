@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio10 Guanabara</title>
+
+    <style>
+        @font-face {
+            font-family: droid;
+            src: url(font/idroid.otf);
+        }
+        body{
+            background-color: rgb(231, 228, 177);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .principal{
+            background-color: rgba(13, 107, 13, 0.726);
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px;
+            color: white;
+            border-radius: 0px 0px 0px 0px;
+            display: block;
+            
+        }
+
+        nav{
+            text-align: left;
+            padding: 0px;
+            font-size: larger;
+        }
+        
+        .secundario {
+            color: rgb(0, 0, 0);
+            padding: 50px 350px;
+            background-color: white;
+            margin: 0px 240px;
+            border-radius: 0px 0px 10px 10px;
+            border: 10px;
+            text-align: justify;
+            font-size: large;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mascote{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,14,0.49343487394957986) 0%, rgba(0,255,64,0.11248249299719892) 100%);
+            display: flex;
+            color: rgb(8, 180, 37);
+        }
+
+        .bug{
+            padding-left: 200px;
+        }
+
+        .cu:hover{
+            background-color: rgba(174, 180, 180, 0.781);
+            border-radius: 5px 5px 5px 5px;
+            margin: 15px;
+            
+        }
+
+        .cu{
+            color: white;
+            text-decoration: none;
+            justify-content: space-between;
+            transition: 0.2s linear;
+        }
+
+        .navegacao{
+            display: flex;
+            padding-left: 50px;
+            justify-content: space-between;
+            width: 500px;  
+        }
+
+        .p{
+            padding-left: 30px;
+        }
+
+        footer {
+            text-align: center;
+            font-family: droid;
+        }
+
+        .link{
+            text-decoration: none;
+            font-family: droid;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,14,0.49343487394957986) 0%, rgba(0,255,64,0.11248249299719892) 100%);
+        }
+
+        .artigo {
+            background-color: rgba(126, 243, 96, 0.774);
+            
+        }
+
+        .fundo{
+            background-color: black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .h3{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,14,0.49343487394957986) 0%, rgba(0,255,64,0.11248249299719892) 100%);
+            
+        }
+
+        .li{
+            list-style: none;
+        }
+
+    </style>
+
+    
+</head>
+<body>
+    <header class="principal">
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <h2>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</h2>
+        <nav>
+            <section class="navegacao">
+                <div><a class="cu" href="index.html">Home</a></div>
+                <div><a class="cu" href="https://www.uol.com.br/" target="_blank">Notícias</a></div>
+                <div><a class="cu" href="#">Curiosidades</a></div>
+                <div><a class="cu" href="https://wa.me/5519971384561">Fale com vagabundo</a></div>
+                <div><a class="cu" href="index2.html">Página 2</a></div>
+            </section>
+        </nav>
+    </header>
+
+    <main class="secundario">
+        <h1 class="mascote" style="font-family: droid;">HISTÓRIA DO MASCOTE DO ANDROID</h1>
+        <section class="paragrafo">
+            <p class="p" style="color:black">Provavelmente você sabe que o sistema operacional <a class="link" href="https://www.android.com/intl/pt-BR_br/" target="_blank">Android</a>, mantido pelo <a class="link" href="https://www.google.com/" target="_blank">Google</a> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+        </section>
+
+
+        <h2 class="mascote" style="font-family: droid;">A PRIMEIRA VERSÃO</h2>
+        <p class="p">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a class="link" href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank">Dan Morrill.</a> Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        <div><img class="maozinha" src="imagens/dan-droids.png" alt=""></div>
+
+        <section class="mascote">
+            <h2 class="subtitulo" style="font-family: droid;">SURGE UM NOVO MASCOTE</h2>  
+         </section>
+         <p class="p">A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+            <div><img class="maozinha" src="imagens/irina-blok.jpg" alt=""></div>
+        
+        <p class="p">A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+            <div><img class="maozinha" src="imagens/bugdroid.png" alt=""></div>
+        <p class="p">A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+        <p class="p">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids</p>
+
+        <div class="fundo">
+            <aside class="artigo">
+                <h3 class="h3">Quer Aprender mais?</h3>
+                <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+                <ul>
+                    <li class="li">1.5 - Cupcake</li>
+                    <li class="li">1.6 - Donut</li>
+                    <li class="li">3.0 - Eclair</li>
+                    <li class="li">2.2 - Froyo</li>
+                    <li class="li">2.3 - Gingerbread</li>
+                    <li class="li">3.0 - Honeycomb</li>
+                    <li class="li">4.0 - Ice Cream Sandwich</li>
+                <div class="direito">
+                    <li class="li">4.1 - Jelly Bean</li>
+                    <li class="li">4.4 - KitKat</li>
+                    <li class="li">5.0 - Lolipop</li>
+                    <li class="li">6.0 - Marshmallow</li>
+                    <li class="li">7.0 - Nougat</li>
+                    <li class="li">8.0 - Oreo</li>
+                    <li class="li">9.0 - Pie</li>
+                </div>    
+                    <p class="p">Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+                    </p>
+                    <p class="p">Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>      
+                </ul>
+        </aside>
+    </div>
+    
+    </main>
+    <footer>
+        <p class="p">Criado e desenvolvido por Rafael Oliveira</p>
+    </footer>
+    
+</body>
+</html>
